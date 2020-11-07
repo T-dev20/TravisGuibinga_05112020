@@ -1,8 +1,17 @@
 .operation {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  margin-top: 2rem;
   &__steps {
-    width: 30%;
+    width: 30.5%;
+    margin-top: 5rem;
     background-color: $color-containers;
+    text-align: center;
+  }
+  &--step1 {
+    margin-left: -11.65rem;
+    margin-right: 4rem;
+  }
+  &--step2 {
+    margin-right: 4rem;
   }
 }
