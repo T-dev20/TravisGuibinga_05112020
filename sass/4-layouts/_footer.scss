@@ -1,5 +1,14 @@
 footer {
   background-color: $color-footer;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  & img {
+    width: 10%;
+    margin-left: 2.4rem;
+  }
   & li {
     list-style: none;
   }
