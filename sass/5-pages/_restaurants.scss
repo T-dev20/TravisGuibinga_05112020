@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: space-around;
   @include title-position;
+  @include link;
   &__menus {
     height: 500px;
     border-radius: 1rem;
