@@ -1,17 +1,18 @@
 .operation {
   display: flex;
   margin-top: 5rem;
+  @include title-position;
   &__steps {
     width: 30.5%;
     height: 200px;
     border-radius: 1rem;
     @include shadow;
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     background-color: $color-containers;
     text-align: center;
   }
   &--step1 {
-    margin-left: -11rem;
+    margin-left: -14rem;
     margin-right: 4rem;
   }
   &--step2 {
