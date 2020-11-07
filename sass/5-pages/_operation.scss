@@ -3,12 +3,15 @@
   margin-top: 2rem;
   &__steps {
     width: 30.5%;
+    height: 200px;
+    border-radius: 1rem;
+    box-shadow: 1.5px 3px 15px #c5baba;
     margin-top: 5rem;
     background-color: $color-containers;
     text-align: center;
   }
   &--step1 {
-    margin-left: -11.65rem;
+    margin-left: -11rem;
     margin-right: 4rem;
   }
   &--step2 {
