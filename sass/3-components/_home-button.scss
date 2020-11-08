@@ -7,12 +7,16 @@
       $color-secondary,
       $color-primary
     );
+    @include shadow-btns;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: $color-secondary;
+
     padding: 15px 25px;
     border-radius: 1.8rem;
     margin-bottom: 4rem;
+    &:hover {
+      @include hover;
+    }
   }
 }
