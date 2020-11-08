@@ -11,9 +11,15 @@ footer {
   }
   & li {
     list-style: none;
-  }
-
-  & span {
-    margin-right: 10px;
+    margin-bottom: 10px;
+    & .li__utensils-icon {
+      margin-right: 12px;
+    }
+    & .li__hands-icon {
+      display: inline-block;
+      margin-right: 8.5px;
+      font-size: 0.8rem;
+      transform: rotate(-17deg);
+    }
   }
 }
