@@ -7,7 +7,13 @@
     background-color: $color-back-Map;
     display: flex;
     justify-content: center;
-
+    &__icon {
+      display: block;
+      position: relative;
+      bottom: -30px;
+      right: 35px;
+      font-size: 2rem;
+    }
     & p {
       font-size: 2rem;
     }
