@@ -19,9 +19,22 @@
       position: relative;
       font-size: 3.5rem;
       top: 75px;
+      opacity: 0.4;
+    }
+    &__numbers {
+      position: relative;
+      left: -13px;
+      float: left;
+      text-align: center;
+      color: white;
+      background-color: $color-primary;
+      padding: 6px 9px 3px 9px;
+      border-radius: 50%;
+      margin-top: 20px;
     }
     &--icon {
       color: $color-primary;
+      opacity: inherit;
     }
   }
   &--step1 {
