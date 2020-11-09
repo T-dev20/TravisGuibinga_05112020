@@ -23,8 +23,7 @@
   width: 1380px;
   margin: auto;
   font-family: "RobotoReg", Arial, sans-serif;
-  @include mobile {
-    display: grid;
-    grid-template-columns: 1fr;
+  @media screen and (max-width: 599px) {
+    width: auto;
   }
 }
