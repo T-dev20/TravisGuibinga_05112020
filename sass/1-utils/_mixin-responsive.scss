@@ -1,0 +1,11 @@
+@mixin mobile {
+  @media screen and (max-width: map-get($map: $breakpoints, $key: mobile)) {
+    @content;
+  }
+}
+
+@mixin ipad {
+  @media screen and (max-width: map-get($map: $breakpoints, $key: ipad)) {
+    @content;
+  }
+}
