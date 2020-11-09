@@ -2,6 +2,9 @@
   display: flex;
   margin-top: 5rem;
   @include title-position;
+  @media screen and (max-width: 599px) {
+    flex-direction: column;
+  }
   &__steps {
     width: 30.5%;
     height: 200px;
@@ -10,6 +13,9 @@
     margin-top: 5.5rem;
     background-color: $color-containers;
     text-align: center;
+    @media screen and (max-width: 599px) {
+      width: 97%;
+    }
     & p {
       font-size: 1.4rem;
       margin-top: -48px;
@@ -40,6 +46,9 @@
   &--step1 {
     margin-left: -14rem;
     margin-right: 4rem;
+    @media screen and (max-width: 599px) {
+      margin-left: inherit;
+    }
   }
   &--step2 {
     margin-right: 4rem;
