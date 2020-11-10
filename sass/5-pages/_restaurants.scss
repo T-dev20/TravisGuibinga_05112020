@@ -7,15 +7,17 @@
   justify-content: space-around;
   @media screen and (max-width: 599px) {
     margin-top: 2.6rem;
-    padding-top: 2.3rem;
+    padding-top: 5rem;
   }
+  @include link;
+  @include title-position;
   & h2 {
     @media screen and (max-width: 599px) {
       margin-left: 1.2rem;
       font-size: 1.4rem;
     }
   }
-  @include link;
+
   &__menus {
     height: 500px;
     border-radius: 1rem;
@@ -59,7 +61,7 @@
       }
     }
   }
-  &__menus__label {
+  &__menus__label1 {
     background-color: $color-tertiary;
     color: #14b38b;
     text-align: center;
@@ -69,10 +71,32 @@
     width: 7%;
     padding: 10px 12px;
     display: block;
-    position: relative;
-    right: -73.5rem;
-    top: -22rem;
+    position: absolute;
+    right: 8rem;
+    top: 63rem;
+    /* @media screen and (max-width: 599px) {
+      font-size: 1rem;
+      width: 27%;
+      padding: 6px 8px;
+      right: -10.2rem;
+      top: -9.3rem;
+    }*/
   }
+  &__menus__label2 {
+    background-color: $color-tertiary;
+    color: #14b38b;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 7%;
+    padding: 10px 12px;
+    display: block;
+    position: absolute;
+    right: 8rem;
+    top: 95.5rem;
+  }
+
   &__menus__heart {
     font-size: 2rem;
     opacity: 0.6;
