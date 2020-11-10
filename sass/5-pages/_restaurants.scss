@@ -11,7 +11,7 @@
   }
   & h2 {
     @media screen and (max-width: 599px) {
-      margin-left: 1.4rem;
+      margin-left: 1.2rem;
       font-size: 1.4rem;
     }
   }
@@ -23,20 +23,35 @@
     background-color: white;
     margin: auto;
     margin-bottom: 1.3rem;
+    @media screen and (max-width: 599px) {
+      height: 230px;
+      width: 87%;
+    }
     & > img {
       height: 82%;
       width: 100%;
       border-radius: 1rem 1rem 0 0;
       object-fit: cover;
+      @media screen and (max-width: 599px) {
+        height: 70%;
+      }
     }
     &--text {
       position: relative;
       margin-top: -2.6em;
+      @media screen and (max-width: 599px) {
+        margin-top: -3.2em;
+      }
     }
 
     &__text {
       position: relative;
       margin-left: 1em;
+      @media screen and (max-width: 599px) {
+        display: inline-block;
+        top: -0.2rem;
+        font-size: 0.8rem;
+      }
       & p {
         display: block;
         position: relative;
