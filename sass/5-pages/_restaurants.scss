@@ -62,17 +62,7 @@
     }
   }
   &__menus__label1 {
-    background-color: $color-tertiary;
-    color: #14b38b;
-    text-align: center;
-    border-radius: 2px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    width: 7%;
-    padding: 10px 12px;
-    display: block;
-    position: absolute;
-    right: 8rem;
+    @include label;
     top: 63rem;
     /* @media screen and (max-width: 599px) {
       font-size: 1rem;
@@ -83,17 +73,7 @@
     }*/
   }
   &__menus__label2 {
-    background-color: $color-tertiary;
-    color: #14b38b;
-    text-align: center;
-    border-radius: 2px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    width: 7%;
-    padding: 10px 12px;
-    display: block;
-    position: absolute;
-    right: 8rem;
+    @include label;
     top: 95.5rem;
   }
 
