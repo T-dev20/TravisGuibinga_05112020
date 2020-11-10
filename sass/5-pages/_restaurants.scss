@@ -5,7 +5,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  @include title-position;
+  @media screen and (max-width: 599px) {
+    margin-top: 2.6rem;
+  }
+
   @include link;
   &__menus {
     height: 500px;
