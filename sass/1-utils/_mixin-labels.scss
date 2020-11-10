@@ -1,0 +1,13 @@
+@mixin label {
+  background-color: $color-tertiary;
+  color: #14b38b;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 7%;
+  padding: 10px 12px;
+  display: block;
+  position: absolute;
+  right: 8rem;
+}
