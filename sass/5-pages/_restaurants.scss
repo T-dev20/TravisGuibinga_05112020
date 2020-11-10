@@ -83,13 +83,23 @@
     float: right;
     margin-top: -4.5pc;
     margin-right: 3pc;
+    & path {
+      fill: transparent;
+      stroke-width: 30;
+      stroke: black;
+      transition: fill 3.2s ease-in-out;
+
+      &:hover {
+        fill: $color-primary;
+        transform-origin: bottom;
+        stroke: $color-primary;
+      }
+    }
+
     @media screen and (max-width: 599px) {
       font-size: 1.5rem;
       margin-right: 1.5pc;
       margin-top: 0.8pc;
-    }
-    &:hover {
-      background: linear-gradient(to top, $color-secondary, $color-primary);
     }
   }
 }
