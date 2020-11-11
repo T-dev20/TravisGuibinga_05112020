@@ -83,7 +83,7 @@
     float: right;
     margin-top: -4.5pc;
     margin-right: 3pc;
-    & path {
+    /*& path {
       fill: transparent;
       stroke-width: 30;
       stroke: black;
@@ -97,8 +97,7 @@
         );
         transform-origin: bottom;
         stroke: $color-primary;
-      }
-    }
+      }*/
 
     @media screen and (max-width: 599px) {
       font-size: 1.5rem;
