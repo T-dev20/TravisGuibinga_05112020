@@ -87,10 +87,14 @@
       fill: transparent;
       stroke-width: 30;
       stroke: black;
-      transition: fill 3.2s ease-in-out;
+      transition: all 1.5s ease-in-out;
 
       &:hover {
-        fill: $color-primary;
+        background: linear-gradient(
+          to bottom,
+          $color-secondary,
+          $color-primary
+        );
         transform-origin: bottom;
         stroke: $color-primary;
       }
