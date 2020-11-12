@@ -34,8 +34,27 @@
   padding-top: 40vh;
   width: 100%;
   height: 100%;
-  z-index: 999999;
+  z-index: -1;
+  opacity: 0;
   text-align: center;
+  animation: wrapper 1s ease-in-out 2s alternate both;
+}
+
+@keyframes wrapper {
+  0% {
+    opacity: 0.97;
+    z-index: 1;
+  }
+  50% {
+    z-index: 1;
+  }
+  80% {
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
 }
 
 .wrapper__loading-spinner {
@@ -47,6 +66,12 @@
   border-top-color: $color-tertiary;
   margin-bottom: 2rem;
   animation: spin 1s infinite ease-in-out;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .wrapper__loading-dots > div {
@@ -66,12 +91,6 @@
   }
   &__bounce3 {
     animation: bounce 1s infinite 0.45s ease-in-out both;
-  }
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
   }
 }
 
