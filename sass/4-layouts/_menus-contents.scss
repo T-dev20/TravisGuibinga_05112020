@@ -29,9 +29,12 @@
     right: -2.2rem;
   }
   & .starters > p {
+    @include border-bottom;
   }
   & .dishes > p {
+    @include border-bottom;
   }
   & .desserts > p {
+    @include border-bottom;
   }
 }
