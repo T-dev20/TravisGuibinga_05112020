@@ -1,0 +1,5 @@
+@mixin border-bottom {
+  border-bottom: 3.5px solid $color-tertiary;
+  width: 12%;
+  padding-bottom: 5px;
+}
