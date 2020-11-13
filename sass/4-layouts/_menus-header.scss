@@ -1,5 +1,24 @@
 #menus-headers {
   @media screen and (max-width: 599px) {
-    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  & > img {
+    @media screen and (max-width: 599px) {
+      display: inline-block;
+      position: relative;
+      height: 1.75rem;
+      left: -40px;
+    }
+  }
+}
+
+.arrow-left {
+  @media screen and (max-width: 599px) {
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-left: -25px;
+    margin-right: 0px;
   }
 }
