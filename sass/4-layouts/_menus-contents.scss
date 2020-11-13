@@ -30,7 +30,17 @@
   }
   & .starters > p {
     border-bottom: 3.5px solid $color-tertiary;
-    width: 12.8%;
+    width: 12%;
+    padding-bottom: 5px;
+  }
+  & .dishes > p {
+    border-bottom: 3.5px solid $color-tertiary;
+    width: 12%;
+    padding-bottom: 5px;
+  }
+  & .desserts > p {
+    border-bottom: 3.5px solid $color-tertiary;
+    width: 12%;
     padding-bottom: 5px;
   }
 }
