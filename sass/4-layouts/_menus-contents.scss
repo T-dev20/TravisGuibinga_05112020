@@ -77,6 +77,15 @@
       & .starters--em1 {
         right: -5px;
       }
+      & .starters--em2 {
+        right: -33px;
+      }
+      & .starters--em3 {
+        right: -11px;
+      }
+      & .starters--em4 {
+        right: -11px;
+      }
     }
     & > p {
       @include border-bottom;
