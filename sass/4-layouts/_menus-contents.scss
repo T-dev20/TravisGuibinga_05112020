@@ -101,7 +101,7 @@
       & em {
         display: inline-block;
         position: relative;
-        bottom: -34.8px;
+        bottom: -36px;
         right: -15px;
         font-style: normal;
         font-weight: bold;
@@ -109,13 +109,24 @@
         width: 5%;
       }
       & .em1 {
-        right: 6px;
+        bottom: -51px;
+        right: -1px;
       }
       & .em2 {
         right: -6px;
       }
       & .em3 {
         right: -71px;
+      }
+    }
+    & .dishes__plat1 {
+      height: inherit;
+      height: 80px;
+      & > p {
+        display: inline-block;
+        position: relative;
+        width: 75%;
+        top: 2px;
       }
     }
     & > p {
