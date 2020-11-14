@@ -45,6 +45,12 @@
     & div {
       @include text-price-position;
     }
+    & .em2 {
+      top: 16.8rem;
+    }
+    & .em3 {
+      top: 22.2rem;
+    }
     & > p {
       @include border-bottom;
     }
@@ -52,6 +58,15 @@
   & .dishes {
     & div {
       @include text-price-position;
+    }
+    & .em1 {
+      top: 31.6rem;
+    }
+    & .em2 {
+      top: 37.1rem;
+    }
+    & .em3 {
+      top: 42.5rem;
     }
     & .dishes__plat1 {
       height: inherit;
@@ -67,6 +82,15 @@
   & .desserts {
     & div {
       @include text-price-position;
+    }
+    & .em1 {
+      top: 51.95rem;
+    }
+    & .em2 {
+      top: 57.3rem;
+    }
+    & .em3 {
+      top: 62.8rem;
     }
     & > p {
       @include border-bottom;
