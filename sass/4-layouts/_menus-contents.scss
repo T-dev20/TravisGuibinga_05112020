@@ -84,7 +84,7 @@
         right: -11px;
       }
       & .starters--em4 {
-        right: -11px;
+        right: -10.5px;
       }
     }
     & > p {
@@ -131,6 +131,16 @@
       & .em3 {
         right: -71px;
       }
+      & .dishes--em1 {
+        bottom: -36.5px;
+        right: -1px;
+      }
+      & .dishes--em2 {
+        right: -50px;
+      }
+      & .dishes--em3 {
+        right: -19px;
+      }
     }
     & .dishes__plat1 {
       height: inherit;
@@ -141,6 +151,9 @@
         width: 75%;
         top: 2px;
       }
+    }
+    & .dishes--plat1 {
+      height: 65px;
     }
     & > p {
       @include border-bottom;
@@ -184,6 +197,15 @@
       }
       & .em3 {
         right: -1.5px;
+      }
+      & .dess--em1 {
+        right: 3.5px;
+      }
+      & .dess--em2 {
+        right: -43px;
+      }
+      & .dess--em3 {
+        right: -28px;
       }
     }
     & > p {
