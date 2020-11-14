@@ -36,60 +36,7 @@
     right: -2.2rem;
   }
   & .starters {
-    & div {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      background-color: white;
-      font-family: "Roboto", Arial, Helvetica;
-      margin-bottom: 1rem;
-      height: 65px;
-      padding-left: 8px;
-      border-radius: 1rem;
-      & span {
-        background-color: burlywood;
-        width: 95%;
-        height: 16px;
-        margin-left: -33.5px;
-      }
-      & h2 {
-        font-size: 1rem;
-      }
-      & p {
-        font-size: 0.95rem;
-        margin-top: -11.5px;
-        opacity: 0.68;
-      }
-      & em {
-        position: absolute;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 0.85rem;
-        width: 5%;
-        opacity: 1;
-      }
-      & .em1 {
-        right: 13px;
-      }
-      & .em2 {
-        right: 13px;
-      }
-      & .em3 {
-        right: 13px;
-      }
-      /*pour les prix du menu "La note enchantée"*/
-      & .starters--em1 {
-        right: -5px;
-      }
-      & .starters--em2 {
-        right: -33px;
-      }
-      & .starters--em3 {
-        right: -11px;
-      }
-      & .starters--em4 {
-        right: -10.5px;
-      }
+    
     }
     & > p {
       @include border-bottom;
@@ -121,59 +68,26 @@
         opacity: 0.68;
       }
       & em {
-        display: inline-block;
         position: absolute;
-        top: 36em;
-        left: 24.5em;
         font-style: normal;
         font-weight: bold;
         font-size: 0.85rem;
         width: 5%;
+        opacity: 1;
       }
       & .em1 {
-        bottom: -51px;
-        right: -1px;
+        right: 13px;
       }
       & .em2 {
-        right: -6px;
+        right: 13px;
       }
       & .em3 {
-        right: -71px;
-      }
-      /*pour les prix du menu "La note enchantée"*/
-      & .dishes--em1 {
-        bottom: -36.5px;
-        right: -1px;
-      }
-      & .dishes--em2 {
-        right: -50px;
-      }
-      & .dishes--em3 {
-        right: -19px;
-      }
-      /*pour les prix du menu "À la française"*/
-      & .dishes--em1-1 {
-        bottom: -36.5px;
-        right: 1px;
-      }
-      & .dishes--em2-1 {
-        right: -17.5px;
-        bottom: -35.5px;
-      }
-      & .dishes--em3-1 {
-        right: -12.5px;
-        bottom: -34.5px;
+        right: 13px;
       }
     }
     & .dishes__plat1 {
       height: inherit;
       height: 80px;
-      & > p {
-        display: inline-block;
-        position: relative;
-        width: 75%;
-        top: 2px;
-      }
     }
     & .dishes--plat1 {
       height: 65px;
@@ -209,43 +123,21 @@
         opacity: 0.68;
       }
       & em {
-        display: inline-block;
-        position: relative;
-        bottom: -34.8px;
-        right: -15px;
+        position: absolute;
         font-style: normal;
         font-weight: bold;
         font-size: 0.85rem;
-        width: 5%; /*car on laissant ça par défaut, une marge-droite se créee au niveau de la page principale*/
+        width: 5%;
+        opacity: 1;
       }
       & .em1 {
-        right: -80px;
+        right: 13px;
       }
       & .em2 {
-        right: -0.5px;
+        right: 13px;
       }
       & .em3 {
-        right: -1.5px;
-      }
-      /*pour les prix du menu "La note enchantée"*/
-      & .dess--em1 {
-        right: 3.5px;
-      }
-      & .dess--em2 {
-        right: -43px;
-      }
-      & .dess--em3 {
-        right: -28px;
-      }
-      /*pour les prix du menu "À la française"*/
-      & .dess--em1-1 {
-        right: -22px;
-      }
-      & .dess--em2-1 {
-        right: -46px;
-      }
-      & .dess--em3-1 {
-        right: -38px;
+        right: 13px;
       }
     }
     & > p {
