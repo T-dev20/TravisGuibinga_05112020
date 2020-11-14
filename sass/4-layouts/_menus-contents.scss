@@ -107,6 +107,16 @@
     & .em3 {
       top: 62.8rem;
     }
+    /*pour le menu 'la palette du gout'*/
+    & .em1--1 {
+      top: 52.9rem;
+    }
+    & .em2--1 {
+      top: 58.3rem;
+    }
+    & .em3--1 {
+      top: 63.6rem;
+    }
     & > p {
       @include border-bottom;
     }
