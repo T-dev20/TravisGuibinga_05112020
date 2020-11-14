@@ -65,10 +65,13 @@
         width: 5%;
       }
       & .em1 {
-        right: -53.4px;
+        right: -46px;
       }
       & .em2 {
-        right: -29.5px;
+        right: -22.1px;
+      }
+      & .em3 {
+        right: -22.7px;
       }
     }
     & > p {
@@ -105,6 +108,15 @@
         font-size: 0.85rem;
         width: 5%;
       }
+      & .em1 {
+        right: 6px;
+      }
+      & .em2 {
+        right: -6px;
+      }
+      & .em3 {
+        right: -71px;
+      }
     }
     & > p {
       @include border-bottom;
@@ -139,6 +151,15 @@
         font-weight: bold;
         font-size: 0.85rem;
         width: 5%; /*car on laissant ça par défaut, une marge-droite se créee au niveau de la page principale*/
+      }
+      & .em1 {
+        right: -80px;
+      }
+      & .em2 {
+        right: -0.5px;
+      }
+      & .em3 {
+        right: -1.5px;
       }
     }
     & > p {
