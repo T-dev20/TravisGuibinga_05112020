@@ -49,6 +49,7 @@
       & span {
         background-color: burlywood;
         width: 95%;
+        height: 16px;
         margin-left: -33.5px;
       }
       & h2 {
@@ -61,20 +62,20 @@
       }
       & em {
         position: absolute;
-
         font-style: normal;
         font-weight: bold;
         font-size: 0.85rem;
         width: 5%;
+        opacity: 1;
       }
       & .em1 {
         right: 13px;
       }
       & .em2 {
-        right: -22.1px;
+        right: 13px;
       }
       & .em3 {
-        right: -22.7px;
+        right: 13px;
       }
       /*pour les prix du menu "La note enchantée"*/
       & .starters--em1 {
@@ -88,18 +89,6 @@
       }
       & .starters--em4 {
         right: -10.5px;
-      }
-      /*pour les prix du menu "À la française"
-      }*/
-      & .starters--em1-1 {
-        margin-left: 140px;
-      }
-      & .starters--em2-1 {
-        margin-left: 15px;
-        background-color: blue;
-      }
-      & .starters--em3-1 {
-        bottom: 58.6em;
       }
     }
     & > p {
@@ -118,6 +107,11 @@
       height: 65px;
       padding-left: 8px;
       border-radius: 1rem;
+      & span {
+        background-color: burlywood;
+        width: 95%;
+        margin-left: -33.5px;
+      }
       & h2 {
         font-size: 1rem;
       }
@@ -200,6 +194,12 @@
       height: 65px;
       padding-left: 8px;
       border-radius: 1rem;
+      & span {
+        background-color: burlywood;
+        width: 95%;
+        height: 15px;
+        margin-left: -33.5px;
+      }
       & h2 {
         font-size: 1rem;
       }
