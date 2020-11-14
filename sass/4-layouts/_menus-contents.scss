@@ -68,15 +68,30 @@
     & .em3 {
       top: 42.5rem;
     }
+    /*conteneur du 1er plat de la Palette du gout*/
     & .dishes__plat1 {
       height: inherit;
       height: 80px;
+      & .em1 {
+        top: 32.7rem;
+      }
+      & .em2 {
+        top: 48.1rem;
+      }
+      & .em3 {
+        top: 48.5rem;
+      }
     }
     & .dishes--plat1 {
       height: 65px;
     }
     & > p {
       @include border-bottom;
+    }
+    /*texte 'accommpagné de sa ribambelle...' : laPaletteDugout*/
+    & .txtLaPall {
+      width: 80%;
+      margin-top: -25px;
     }
   }
   & .desserts {
