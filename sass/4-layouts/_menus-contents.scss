@@ -74,6 +74,9 @@
       & .em3 {
         right: -22.7px;
       }
+      & .starters--em1 {
+        right: -5px;
+      }
     }
     & > p {
       @include border-bottom;
