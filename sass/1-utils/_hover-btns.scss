@@ -1,7 +1,7 @@
 @mixin hover {
   background-image: linear-gradient(
-    lighten($color-secondary, 3),
-    lighten($color-primary, 3)
+    lighten($color-secondary, 5),
+    lighten($color-primary, 5)
   );
   box-shadow: 1.5px 3px 17px #a19c9c;
 }
