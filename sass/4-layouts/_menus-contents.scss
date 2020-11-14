@@ -29,11 +29,17 @@
     display: inline-block;
     margin-top: 30px;
     margin-left: 5px;
+    margin-right: 0px;
   }
-  & span {
-    font-size: 1.2rem;
-    position: relative;
-    right: -2.2rem;
+  & > .menu__titreIco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    & > span {
+      font-size: 1.4rem;
+      margin-top: 34.5px;
+      margin-right: 25px;
+    }
   }
   & .starters {
     & div {
