@@ -74,6 +74,7 @@
       & .em3 {
         right: -22.7px;
       }
+      /*pour les prix du menu "La note enchantée"*/
       & .starters--em1 {
         right: -5px;
       }
@@ -85,6 +86,16 @@
       }
       & .starters--em4 {
         right: -10.5px;
+      }
+      /*pour les prix du menu "À la française"*/
+      & .starters--em1-1 {
+        right: -24px;
+      }
+      & .starters--em2-1 {
+        right: -17px;
+      }
+      & .starters--em3-1 {
+        right: -58px;
       }
     }
     & > p {
@@ -131,6 +142,7 @@
       & .em3 {
         right: -71px;
       }
+      /*pour les prix du menu "La note enchantée"*/
       & .dishes--em1 {
         bottom: -36.5px;
         right: -1px;
@@ -140,6 +152,19 @@
       }
       & .dishes--em3 {
         right: -19px;
+      }
+      /*pour les prix du menu "À la française"*/
+      & .dishes--em1-1 {
+        bottom: -36.5px;
+        right: 1px;
+      }
+      & .dishes--em2-1 {
+        right: -17.5px;
+        bottom: -35.5px;
+      }
+      & .dishes--em3-1 {
+        right: -12.5px;
+        bottom: -34.5px;
       }
     }
     & .dishes__plat1 {
@@ -198,6 +223,7 @@
       & .em3 {
         right: -1.5px;
       }
+      /*pour les prix du menu "La note enchantée"*/
       & .dess--em1 {
         right: 3.5px;
       }
@@ -206,6 +232,16 @@
       }
       & .dess--em3 {
         right: -28px;
+      }
+      /*pour les prix du menu "À la française"*/
+      & .dess--em1-1 {
+        right: -22px;
+      }
+      & .dess--em2-1 {
+        right: -46px;
+      }
+      & .dess--em3-1 {
+        right: -38px;
       }
     }
     & > p {
