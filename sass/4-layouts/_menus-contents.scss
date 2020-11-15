@@ -72,10 +72,13 @@
     & .em3 {
       top: 42.5rem;
     }
-    /*conteneur du 1er plat de la Palette du gout*/
     & .dishes__plat1 {
+      /*conteneur du 1er plat de la Palette du gout*/
       height: inherit;
       height: 80px;
+      & h2 {
+        width: 79%;
+      }
       & .em1 {
         top: 32.7rem;
       }
