@@ -104,6 +104,13 @@
     & .em3--2 {
       top: 47.85rem;
     }
+    /*pour le prix des plats du menu 'le délice des sens'*/
+    & .em2--4 {
+      top: 38.1rem;
+    }
+    & .em3--4 {
+      top: 43.5rem;
+    }
     & .dishes--plat1 {
       height: 65px;
     }
@@ -139,7 +146,7 @@
     & .em3--1 {
       top: 63.6rem;
     }
-    /*pour le 3 desserts du menu 'la note enchantée'*/
+    /*pour les 3 desserts du menu 'la note enchantée'*/
     & .em1--2 {
       top: 57.3rem;
     }
@@ -148,6 +155,16 @@
     }
     & .em3--2 {
       top: 68.18rem;
+    }
+    /*pour le prix des desserts du menu 'le délice des sens'*/
+    & .em1--4 {
+      top: 53.1rem;
+    }
+    & .em2--4 {
+      top: 58.4rem;
+    }
+    & .em3--4 {
+      top: 63.7rem;
     }
     & > p {
       @include border-bottom;
