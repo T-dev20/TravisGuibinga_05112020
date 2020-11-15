@@ -51,6 +51,7 @@
     & .em3 {
       top: 22.2rem;
     }
+    /*pour le 4ème plat du menu 'la note enchantée'*/
     & .em4--2 {
       top: 27.6rem;
     }
@@ -78,12 +79,23 @@
       & .em1 {
         top: 32.7rem;
       }
+      /*pour le 1er plat du menu 'la note enchantée'*/
+      & .em1--2 {
+        top: 37.1rem;
+      }
     }
     & .em2--1 {
       top: 37.95rem;
     }
     & .em3--1 {
       top: 43.4rem;
+    }
+    /*pour le menu 'la note enchantée'*/
+    & .em2--2 {
+      top: 42.45rem;
+    }
+    & .em3--2 {
+      top: 47.85rem;
     }
     & .dishes--plat1 {
       height: 65px;
@@ -119,6 +131,16 @@
     }
     & .em3--1 {
       top: 63.6rem;
+    }
+    /*pour le 3 desserts du menu 'la note enchantée'*/
+    & .em1--2 {
+      top: 57.3rem;
+    }
+    & .em2--2 {
+      top: 62.7rem;
+    }
+    & .em3--2 {
+      top: 68.18rem;
     }
     & > p {
       @include border-bottom;
