@@ -29,7 +29,7 @@
       height: 230px;
       width: 87%;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 610px) and (max-width: 1023px) {
       height: 430px;
     }
     & > img {
@@ -67,7 +67,7 @@
       top: 56.7rem;
       right: 2.8rem;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 610px) and (max-width: 1023px) {
       width: 17%;
       top: 60.7rem;
       right: 2.8rem;
@@ -83,7 +83,7 @@
       top: 72.4rem;
       right: 2.8rem;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 610px) and (max-width: 1023px) {
       width: 17%;
       top: 89rem;
       right: 2.8rem;
