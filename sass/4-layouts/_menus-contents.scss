@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .photo-menu {
+  height: 500px;
+  margin-top: 1rem;
   @media screen and (max-width: 599px) {
     height: 300px;
     margin-top: 1rem;
@@ -13,6 +15,10 @@
 }
 
 .menu {
+  @media screen and (min-width: 1024px) {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
   background-color: $color-containers;
   border-radius: 1.8rem 1.8rem 0 0;
   position: relative;
