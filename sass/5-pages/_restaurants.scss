@@ -29,6 +29,9 @@
       height: 230px;
       width: 87%;
     }
+    @media screen and (max-width: 768px) {
+      height: 430px;
+    }
     & > img {
       height: 82%;
       width: 100%;
@@ -64,6 +67,11 @@
       top: 56.7rem;
       right: 2.8rem;
     }
+    @media screen and (max-width: 768px) {
+      width: 17%;
+      top: 60.7rem;
+      right: 2.8rem;
+    }
   }
   &__menus__label2 {
     @include label;
@@ -73,6 +81,11 @@
       width: 22%;
       padding: 6px 5px;
       top: 72.4rem;
+      right: 2.8rem;
+    }
+    @media screen and (max-width: 768px) {
+      width: 17%;
+      top: 89rem;
       right: 2.8rem;
     }
   }
