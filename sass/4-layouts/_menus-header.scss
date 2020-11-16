@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 
+#principal_page2 {
+  width: 1380px;
+  margin: auto;
+  @media screen and (max-width: 599px) {
+    width: auto;
+  }
+}
+
 #menus-headers {
+  padding-top: 10px;
   @media screen and (max-width: 599px) {
     display: flex;
     justify-content: space-around;
@@ -17,6 +26,8 @@
 }
 
 .arrow-left {
+  font-size: 1.5rem;
+  margin-left: -525px;
   @media screen and (max-width: 599px) {
     font-size: 1.2rem;
     margin-top: 3px;
