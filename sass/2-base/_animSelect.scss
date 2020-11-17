@@ -1,11 +1,11 @@
 .starters {
   &__entrée1 {
-    z-index: -1;
+    z-index: 1;
     cursor: pointer;
-    &::after {
+    &::before {
       content: " ";
       position: absolute;
-      z-index: 1;
+      z-index: -1;
       top: 0;
       left: 0;
       width: 100%;
@@ -14,9 +14,9 @@
       transform-origin: left;
       transition: 300ms;
       border-radius: 15px;
-      background-color: #deebff;
+      background-color: #184fa1;
     }
-    &:hover::after {
+    &:hover::before {
       transform: scaleX(1);
       transition: 200ms;
     }
