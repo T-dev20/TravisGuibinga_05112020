@@ -1,48 +1,50 @@
 @keyframes apparitionMenus {
   from {
+    opacity: 0;
     transform: translateY(-10);
   }
 
   to {
+    opacity: 1;
     transform: translateY(0);
   }
 }
 
 .starters {
   &__entrée1 {
-    animation: apparitionMenus 1s ease-in-out 0.5s;
+    animation: apparitionMenus 2s ease-in-out 0.5s;
   }
   &__entrée2 {
-    animation: apparitionMenus 1s ease-in-out 1s;
+    animation: apparitionMenus 2s ease-in-out 0.6s;
   }
   &__entrée3 {
-    animation: apparitionMenus 1s ease-in-out 1.5s;
+    animation: apparitionMenus 2s ease-in-out 0.7s;
   }
   &__entrée4 {
-    animation: apparitionMenus 1s ease-in-out 2s;
+    animation: apparitionMenus 2s ease-in-out 0.8s;
   }
 }
 
 .dishes {
   &__plat1 {
-    animation: apparitionMenus 1s ease-in-out 0.5s;
+    animation: apparitionMenus 2s ease-in-out 0.5s;
   }
   &__plat2 {
-    animation: apparitionMenus 1s ease-in-out 1s;
+    animation: apparitionMenus 2s ease-in-out 0.6s;
   }
   &__plat3 {
-    animation: apparitionMenus 1s ease-in-out 1.5s;
+    animation: apparitionMenus 2s ease-in-out 0.7s;
   }
 }
 
 .desserts {
   &__1 {
-    animation: apparitionMenus 1s ease-in-out 0.5s;
+    animation: apparitionMenus 2s ease-in-out 0.5s;
   }
   &__2 {
-    animation: apparitionMenus 1s ease-in-out 1s;
+    animation: apparitionMenus 2s ease-in-out 0.6s;
   }
   &__3 {
-    animation: apparitionMenus 1s ease-in-out 1.5s;
+    animation: apparitionMenus 2s ease-in-out 0.7s;
   }
 }
