@@ -5,6 +5,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  &__menus__heart {
+    & .fa-heart {
+      background: linear-gradient(to bottom, $color-secondary, $color-primary);
+    }
+  }
   @media screen and (max-width: 599px) {
     margin-top: 2.6rem;
     padding-top: 5rem;
