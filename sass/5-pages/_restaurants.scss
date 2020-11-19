@@ -5,9 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  &__menus__heart {
-    & .fa-heart {
-      background: linear-gradient(to bottom, $color-secondary, $color-primary);
+  &__menus {
+    & > .div-icon svg * {
+      fill: url(#lgrad);
     }
   }
   @media screen and (max-width: 599px) {
@@ -137,4 +137,16 @@
       margin-top: 0.8pc;
     }
   }
+}
+
+.parent-div svg *:hover {
+  cursor: pointer;
+  fill: url(#lgrad);
+  transition: 1.5s ease-in-out 1s;
+}
+
+/* Only to center icon */
+
+#parent {
+  margin-top: 15%;
 }
