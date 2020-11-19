@@ -7,7 +7,13 @@
   justify-content: space-around;
   &__menus {
     & > .div-icon svg * {
+      fill: transparent;
+      stroke-width: 30;
+      stroke: black;
+    }
+    & > .div-icon svg *:hover {
       fill: url(#lgrad);
+      stroke-opacity: 0;
     }
   }
   @media screen and (max-width: 599px) {
