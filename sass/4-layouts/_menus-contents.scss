@@ -43,17 +43,17 @@
     justify-content: space-between;
     & > span {
       font-size: 1.4rem;
-      margin-top: 34.5px;
+      margin-top: 37.5px;
       margin-right: 25px;
     }
-    & > span svg * {
-      cursor: pointer;
-      fill: transparent;
-      stroke-width: 30;
-      stroke: black;
-    }
-    & > span svg *:hover {
-      animation: hov2 1.5s ease-in-out 0.5s both;
+  }
+  & .icon-menus svg * {
+    cursor: pointer;
+    fill: transparent;
+    stroke-width: 30;
+    stroke: black;
+    &:hover {
+      animation: hov 1.5s ease-in-out 0.5s both;
     }
   }
   & .starters {
@@ -194,29 +194,4 @@
 footer {
   margin-top: -3.7rem;
   font-family: "Roboto";
-}
-
-@keyframes hov2 {
-  0% {
-    stroke-opacity: 0;
-    fill: url(#lgrad);
-    fill-opacity: 0.4;
-  }
-  40% {
-    fill: url(#lgrad);
-    fill-opacity: 0.65;
-  }
-  60% {
-    stroke-opacity: 0;
-    fill-opacity: 0.75;
-  }
-  80% {
-    stroke-opacity: 0;
-    fill-opacity: 0.85;
-  }
-  100% {
-    stroke-opacity: 0;
-    fill: url(#lgrad);
-    fill-opacity: 1;
-  }
 }
