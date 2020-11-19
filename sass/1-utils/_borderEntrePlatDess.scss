@@ -3,4 +3,10 @@
   width: 12%;
   padding-bottom: 5px;
   margin-left: 5px;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 6%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 3%;
+  }
 }
