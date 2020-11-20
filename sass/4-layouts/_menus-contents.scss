@@ -29,6 +29,9 @@
   & div {
     margin-bottom: 2.5rem;
   }
+  & .starters {
+    margin-top: -3.5rem;
+  }
   & h1 {
     font-family: "Shrikhand", Arial;
     font-size: 1.6rem;
@@ -61,14 +64,14 @@
       @include text-price-position;
     }
     & .em2 {
-      top: 17.95rem;
+      top: 16.7rem;
     }
     & .em3 {
-      top: 23.25rem;
+      top: 22.1rem;
     }
-    /*pour le 4ème plat du menu 'la note enchantée'*/
+    /*pour le prix du 4ème plat du menu 'la note enchantée'*/
     & .em4--2 {
-      top: 28.75rem;
+      top: 27.4rem;
     }
     & > p {
       @include border-bottom;
@@ -79,63 +82,71 @@
       @include text-price-position;
     }
     & .em1 {
-      top: 32.75rem;
+      top: 35rem;
     }
     & .em2 {
-      top: 38.25rem;
+      top: 38rem;
     }
     & .em3 {
-      top: 43.65rem;
+      top: 43.4rem;
     }
     & .dishes__plat1 {
       /*conteneur du 1er plat de la Palette du gout*/
       height: inherit;
       height: 80px;
       & h2 {
-        width: 79%;
+        width: 70%;
       }
       & .em1 {
-        top: 33.85rem;
+        top: 32.8rem;
       }
       /*pour le 1er plat du menu 'la note enchantée'*/
       & .em1--2 {
-        top: 38.25rem;
+        top: 37.1rem;
       }
-      /*pour le menu 'à la française'*/
+      /*pour le prix du 1er plat du menu 'à la française'*/
       & .em1--3 {
-        top: 32.8rem;
+        top: 31.55rem;
       }
     }
-    & .em2--1 {
+    /*texte 'accommpagné de sa ribambelle...' : laPaletteDugout*/
+    & .txtLaPallDish1 {
+      width: 80%;
+      margin-top: -10px;
+    }
+    /*pour le menu 'la note enchantée'*/
+    & .em2--2 {
+      top: 42.5rem;
+    }
+    & .em3--2 {
+      top: 47.8rem;
+    }
+    /*pour le menu 'à la française'*/
+    & .em2--3 {
+      top: 37.05rem;
+    }
+    & .em3--3 {
+      top: 42.5rem;
+    }
+    /*& .em2--1 {
       top: 39rem;
     }
     & .em3--1 {
       top: 44.55rem;
     }
-    /*pour le menu 'la note enchantée'*/
-    & .em2--2 {
-      top: 43.6rem;
-    }
-    & .em3--2 {
-      top: 49rem;
-    }
-    /*pour le prix des plats du menu 'le délice des sens'*/
+    
+    /*pour le prix des plats du menu 'le délice des sens'
     & .em2--4 {
       top: 39.25rem;
     }
     & .em3--4 {
       top: 44.65rem;
-    }
+    }*/
     & .dishes--plat1 {
       height: 66.15px;
     }
     & > p {
       @include border-bottom;
-    }
-    /*texte 'accommpagné de sa ribambelle...' : laPaletteDugout*/
-    & .txtLaPall {
-      width: 80%;
-      margin-top: -25px;
     }
   }
   & .desserts {
@@ -143,15 +154,35 @@
       @include text-price-position;
     }
     & .em1 {
-      top: 53.1rem;
+      top: 62.3em;
     }
     & .em2 {
-      top: 58.45rem;
+      top: 58.3rem;
     }
     & .em3 {
-      top: 63.95rem;
+      top: 63.55rem;
     }
-    /*pour le menu 'la palette du gout'*/
+    /*pour les 3 desserts du menu 'la note enchantée'*/
+    & .em1--2 {
+      top: 57.4rem;
+    }
+    & .em2--2 {
+      top: 62.8rem;
+    }
+    & .em3--2 {
+      top: 68.2rem;
+    }
+    /*pour les 3 desserts du menu 'À la française'*/
+    & .em1--3 {
+      top: 52rem;
+    }
+    & .em2--3 {
+      top: 57.3rem;
+    }
+    & .em3--3 {
+      top: 62.6rem;
+    }
+    /*pour le menu 'la palette du gout'
     & .em1--1 {
       top: 54.05rem;
     }
@@ -161,17 +192,7 @@
     & .em3--1 {
       top: 64.75rem;
     }
-    /*pour les 3 desserts du menu 'la note enchantée'*/
-    & .em1--2 {
-      top: 58.45rem;
-    }
-    & .em2--2 {
-      top: 63.85rem;
-    }
-    & .em3--2 {
-      top: 69.33rem;
-    }
-    /*pour le prix des desserts du menu 'le délice des sens'*/
+    /*pour le prix des desserts du menu 'le délice des sens'
     & .em1--4 {
       top: 54.25rem;
     }
@@ -180,7 +201,7 @@
     }
     & .em3--4 {
       top: 64.85rem;
-    }
+    }*/
     & > p {
       @include border-bottom;
     }
