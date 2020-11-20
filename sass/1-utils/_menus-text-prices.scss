@@ -9,6 +9,7 @@
   padding-left: 8px;
   padding-bottom: 5px;
   border-radius: 1rem;
+  cursor: pointer;
   .boxStart {
     position: absolute;
     background-color: $color-tertiary;
@@ -16,6 +17,17 @@
     width: 15%;
     right: 1rem;
     border-radius: 0 1rem 1rem 0;
+    opacity: 1;
+    color: $color-tertiary;
+    & .fa-check {
+      margin-left: 14px;
+      margin-top: 25px;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      padding: 3px;
+      background-color: white;
+    }
   }
   & h2 {
     font-size: 1rem;
