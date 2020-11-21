@@ -1,0 +1,19 @@
+@mixin menuChoice {
+  &::after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 18%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: 300ms;
+    border-radius: 0 1rem 1rem 0;
+    background-color: $color-tertiary;
+  }
+  &:hover::after {
+    transform: scaleX(1); /*l'effet rempli tout le bloc horizontalement*/
+  }
+}
