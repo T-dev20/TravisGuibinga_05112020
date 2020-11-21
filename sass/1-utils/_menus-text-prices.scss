@@ -10,25 +10,6 @@
   padding-bottom: 5px;
   border-radius: 1rem;
   cursor: pointer;
-  .boxStart {
-    position: absolute;
-    background-color: $color-tertiary;
-    height: 65px;
-    width: 15%;
-    right: 1rem;
-    border-radius: 0 1rem 1rem 0;
-    opacity: 1;
-    color: $color-tertiary;
-    & .fa-check {
-      margin-left: 14px;
-      margin-top: 25px;
-      height: 15px;
-      width: 15px;
-      border-radius: 50%;
-      padding: 3px;
-      background-color: white;
-    }
-  }
   & h2 {
     font-size: 1rem;
   }
@@ -39,12 +20,16 @@
   }
   & em {
     position: absolute;
-    right: 43px; //110px pour l'effet
-    top: 11.4rem;
+    right: 28px; //95px pour l'effet
+    top: 2.2rem;
     font-style: normal;
     font-weight: bold;
     font-size: 0.85rem;
     width: 5%;
     opacity: 1;
+    z-index: 1;
   }
 }
+/*
+
+}*/
