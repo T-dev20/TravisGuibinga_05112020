@@ -104,15 +104,18 @@
   & .dishes {
     & div {
       @include text-price-position;
+      position: relative;
+      z-index: 1;
+      @include menuChoice;
     }
     & .em1 {
-      top: 35rem;
+      top: 2rem;
     }
     & .em2 {
-      top: 38rem;
+      top: 2.4rem;
     }
     & .em3 {
-      top: 43.4rem;
+      top: 2.4rem;
     }
     & .dishes__plat1 {
       /*conteneur du 1er plat de la Palette du gout*/
@@ -122,7 +125,7 @@
         width: 70%;
       }
       & .em1 {
-        top: 32.8rem;
+        top: 3.4rem;
       }
       /*pour le 1er plat du menu 'la note enchantée'*/
       & .em1--2 {
@@ -135,7 +138,7 @@
     }
     /*texte 'accommpagné de sa ribambelle...' : laPaletteDugout*/
     & .txtLaPallDish1 {
-      width: 80%;
+      width: 75%;
       margin-top: -10px;
     }
     /*pour le menu 'la note enchantée'*/
@@ -176,15 +179,18 @@
   & .desserts {
     & div {
       @include text-price-position;
+      position: relative;
+      z-index: 1;
+      @include menuChoice;
     }
     & .em1 {
-      top: 62.3em;
+      top: 2.4rem;
     }
     & .em2 {
-      top: 58.3rem;
+      top: 2.4rem;
     }
     & .em3 {
-      top: 63.55rem;
+      top: 2.4rem;
     }
     /*pour les 3 desserts du menu 'la note enchantée'*/
     & .em1--2 {
