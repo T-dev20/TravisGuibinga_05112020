@@ -152,11 +152,11 @@
       right: 2.5rem;
       top: 11.2rem;
       z-index: 1;
-      opacity: 0;
+      opacity: 1;
       font-family: "Roboto";
       font-weight: bold;
       font-size: 0.85rem;
-      transform: translateX(0px);
+      transform: translateX(-24px);
       // background-color: red;
     }
     &__entrée1:hover + .price1 {
@@ -237,7 +237,7 @@
 
 @keyframes select {
   0% {
-    transform: translateX(0px);
+    transform: translateX(-24px);
   }
   100% {
     transform: translateX(-55px);
