@@ -9,7 +9,7 @@
     height: 100%;
     transform: scaleX(0);
     transform-origin: right;
-    transition: 300ms;
+    transition: transform 100ms ease-in-out 0.1s;
     border-radius: 0 1rem 1rem 0;
     background-color: $color-tertiary;
     @media screen and (min-width: 768px) {
@@ -17,6 +17,6 @@
     }
   }
   &:hover::after {
-    transform: scaleX(1); /*l'effet rempli tout le bloc horizontalement*/
+    transform: scaleX(1);
   }
 }
