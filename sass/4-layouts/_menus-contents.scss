@@ -52,7 +52,7 @@
 
 .check2 {
   position: relative;
-  top: -3.8rem;
+  top: -3.6rem;
   left: 18.5rem;
   height: 15px;
   width: 15px;
@@ -161,7 +161,7 @@
       // background-color: red;
     }
     &__entrée1:hover + .price1 {
-      animation: select 200ms ease both;
+      animation: select 200ms ease 0.1s both;
     }
     &--palette > p {
       //background-color: green;
