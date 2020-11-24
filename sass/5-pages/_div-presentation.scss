@@ -2,7 +2,6 @@
   background-color: $color-containers;
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
   @media screen and (max-width: 599px) {
     display: grid;
     grid-template-columns: 1fr;
