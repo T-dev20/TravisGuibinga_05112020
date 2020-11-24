@@ -148,7 +148,12 @@
       position: relative;
       z-index: 1;
       @include menuChoice;
+      & > p {
+        background-color: darkgoldenrod;
+        @include H-txt-plats;
+      }
     }
+
     & .dishes__plat1 {
       /*conteneur du 1er plat des menus 'la Palette du gout' et 'le délices des sens'*/
       height: inherit;
@@ -184,6 +189,10 @@
       position: relative;
       z-index: 1;
       @include menuChoice;
+      & > p {
+        background-color: rgb(11, 80, 184);
+        @include H-txt-plats;
+      }
     }
     & > p {
       @include border-bottom;
