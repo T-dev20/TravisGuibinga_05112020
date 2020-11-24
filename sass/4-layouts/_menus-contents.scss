@@ -111,6 +111,7 @@
         @include H-txt-plats;
       }
     }
+    /* code pour l'animation sur les prix*/
     & > .price--1 {
       @include prices;
       top: 11.2rem;
@@ -149,9 +150,23 @@
       z-index: 1;
       @include menuChoice;
       & > p {
-        background-color: darkgoldenrod;
         @include H-txt-plats;
       }
+    }
+    & > .price--1 {
+      @include prices;
+      top: 31.7rem;
+    }
+    & > .price--2 {
+      @include prices;
+      top: 36.95rem;
+    }
+    & > .price--3 {
+      @include prices;
+      top: 42.45rem;
+    }
+    &__entrée:hover + .prices {
+      transform: translateX(-55px);
     }
 
     & .dishes__plat1 {
