@@ -12,7 +12,7 @@
   }
 }
 
-.check2 {
+.check {
   position: absolute;
   top: 1.6rem;
   left: 19rem;
@@ -27,8 +27,8 @@
   //transform: rotate(0deg);
 }
 
-.txtForCheck:hover + .check2 {
-  animation: check 0.8s ease-in-out both;
+.txtForCheck:hover + .check {
+  animation: check 0.7s ease-in-out both;
 }
 
 @keyframes check {
@@ -132,7 +132,7 @@
       transition: transform 200ms ease-in-out;
       // background-color: red;
     }
-    &__entrée1:hover + .price1 {
+    &__entrée:hover + .price1 {
       transform: translateX(-55px);
     }
     & > .price2 {
@@ -151,7 +151,7 @@
       transition: transform 200ms ease-in-out;
       // background-color: red;
     }
-    &__entrée1:hover + .price2 {
+    &__entrée:hover + .price2 {
       transform: translateX(-55px);
     }
     &--palette > h2 {
