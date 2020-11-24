@@ -1,0 +1,14 @@
+@mixin prices {
+  display: inline-block;
+  position: absolute;
+  padding-top: 5px;
+  text-align: center;
+  right: 2.5rem;
+  z-index: 1;
+  opacity: 1;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 0.85rem;
+  transform: translateX(0px);
+  transition: transform 200ms ease-in-out;
+}
