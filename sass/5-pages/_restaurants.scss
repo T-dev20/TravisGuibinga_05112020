@@ -72,7 +72,7 @@
   }
   &__menus__label1 {
     @include label;
-    top: 1008px;
+    top: 1106px;
     @media screen and (max-width: 380px) {
       font-size: 1rem;
       width: 22%;
@@ -89,13 +89,13 @@
     }
     @media screen and (min-width: 699px) and (max-width: 1023px) {
       width: 17%;
-      top: 850px;
+      top: 955px;
       right: 2.8rem;
     }
   }
   &__menus__label2 {
     @include label;
-    top: 1528px;
+    top: 1628px;
     @media screen and (max-width: 380px) {
       font-size: 1rem;
       width: 22%;
@@ -112,7 +112,7 @@
     }
     @media screen and (min-width: 610px) and (max-width: 1023px) {
       width: 17%;
-      top: 81.3rem;
+      top: 1404.6px;
       right: 2.8rem;
     }
   }
