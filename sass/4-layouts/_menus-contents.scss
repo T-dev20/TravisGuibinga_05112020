@@ -156,11 +156,11 @@
       font-family: "Roboto";
       font-weight: bold;
       font-size: 0.85rem;
-      transform: translateX(-24px);
+      transform: translateX(0px);
       // background-color: red;
     }
     &__entrée1:hover + .price1 {
-      animation: select 200ms ease 0.1s both;
+      animation: select 200ms ease both;
     }
     &--palette > p {
       //background-color: green;
@@ -237,7 +237,7 @@
 
 @keyframes select {
   0% {
-    transform: translateX(-24px);
+    transform: translateX(0px);
   }
   100% {
     transform: translateX(-55px);
