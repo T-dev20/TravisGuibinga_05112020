@@ -12,42 +12,6 @@
   }
 }
 
-/*.titleCheck {
-  //background-color: rebeccapurple;
-  z-index: 1;
-}
-
-.check1 {
-  position: relative;
-  top: -3.65rem;
-  left: 19.7rem;
-  height: 14px;
-  width: 14px;
-  border-radius: 50%;
-  padding: 2.5px;
-  color: $color-tertiary;
-  background-color: black;
-  transform: rotate(0deg);
-  opacity: 1;
-}
-
-.titleCheck:hover + .check1 {
-  animation: choice 0.5s ease-in-out both;
-}
-
-@keyframes choice {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.txtForCheck {
-  z-index: 1;
-}*/
-
 .check2 {
   position: absolute;
   top: 1.6rem;
@@ -142,6 +106,15 @@
       position: relative;
       z-index: 1;
       @include menuChoice;
+      & > p {
+        //background-color: darkgoldenrod;
+        display: inline-block;
+        position: absolute;
+        height: 50%;
+        width: 95%;
+        bottom: -17px;
+        padding-top: 35px;
+      }
     }
     & > .price1 {
       display: inline-block;
@@ -162,14 +135,24 @@
     &__entrée1:hover + .price1 {
       transform: translateX(-55px);
     }
-    &--palette > p {
-      //background-color: green;
+    & > .price2 {
       display: inline-block;
       position: absolute;
-      height: 50%;
-      width: 95%;
-      bottom: -17px;
-      padding-top: 35px;
+      padding-top: 5px;
+      text-align: center;
+      right: 2.5rem;
+      top: 16.6rem;
+      z-index: 1;
+      opacity: 1;
+      font-family: "Roboto";
+      font-weight: bold;
+      font-size: 0.85rem;
+      transform: translateX(0px);
+      transition: transform 200ms ease-in-out;
+      // background-color: red;
+    }
+    &__entrée1:hover + .price2 {
+      transform: translateX(-55px);
     }
     &--palette > h2 {
       //background-color: red;
