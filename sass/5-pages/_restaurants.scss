@@ -19,6 +19,9 @@
     margin-top: 2.6rem;
     padding-top: 5rem;
   }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    margin-top: 4rem;
+  }
   @include link;
   @include title-position;
   & h2 {
