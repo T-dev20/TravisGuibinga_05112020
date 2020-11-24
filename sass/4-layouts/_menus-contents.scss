@@ -116,19 +116,20 @@
         padding-top: 35px;
       }
     }
-    & > .price1 {
+    & > .price--1 {
       @include prices;
       top: 11.2rem;
       // background-color: red;
     }
-    &__entrée:hover + .price1 {
-      transform: translateX(-55px);
-    }
-    & > .price2 {
+    & > .price--2 {
       @include prices;
       top: 16.6rem;
     }
-    &__entrée:hover + .price2 {
+    & > .price--3 {
+      @include prices;
+      top: 20.6rem;
+    }
+    &__entrée:hover + .prices {
       transform: translateX(-55px);
     }
     &--palette > h2 {
