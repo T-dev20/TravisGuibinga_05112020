@@ -108,12 +108,7 @@
       @include menuChoice;
       & > p {
         //background-color: darkgoldenrod;
-        display: inline-block;
-        position: absolute;
-        height: 50%;
-        width: 95%;
-        bottom: -17px;
-        padding-top: 35px;
+        @include H-txt-plats;
       }
     }
     & > .price--1 {
