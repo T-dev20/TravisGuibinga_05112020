@@ -13,7 +13,6 @@
   @media screen and (max-width: 599px) {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
   }
   & > img {
     @media screen and (max-width: 599px) {
@@ -26,19 +25,21 @@
 }
 
 .arrow-left {
+  position: relative;
+  display: inline-block;
   font-size: 1.5rem;
   margin-left: -525px;
+  margin-top: 2px;
   color: black;
   @media screen and (max-width: 599px) {
     font-size: 1.2rem;
-    margin-top: 3px;
     margin-left: -25px;
     margin-right: 0px;
   }
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     font-size: 1.3rem;
-    margin-top: 3px;
-    margin-left: -210px;
+    margin-top: 4px;
+    margin-left: -215px;
     margin-right: 0px;
   }
 }
