@@ -1,8 +1,10 @@
 header {
   background-color: $color-tertiary;
+  padding: 10px 0px 18px 0px;
   display: flex;
   justify-content: center;
   @media screen and (max-width: 599px) {
     background-color: inherit;
+    padding-bottom: inherit;
   }
 }
