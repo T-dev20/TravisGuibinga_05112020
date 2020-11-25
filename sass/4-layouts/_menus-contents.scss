@@ -155,17 +155,17 @@
     }
     & > .price--1 {
       @include prices;
-      top: 31.7rem;
+      top: 32.6rem;
     }
     & > .price--2 {
       @include prices;
-      top: 36.95rem;
+      top: 37.9rem;
     }
     & > .price--3 {
       @include prices;
-      top: 42.45rem;
+      top: 43.3rem;
     }
-    &__entrée:hover + .prices {
+    &__plat:hover + .prices {
       transform: translateX(-55px);
     }
 
