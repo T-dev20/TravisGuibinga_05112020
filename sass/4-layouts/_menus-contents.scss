@@ -222,7 +222,7 @@
       @include prices;
       top: 63.5rem;
     }
-    &__desserts:hover + .prices {
+    &__check:hover + .prices {
       transform: translateX(-55px);
     }
     & > p {
