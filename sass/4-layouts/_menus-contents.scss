@@ -174,6 +174,19 @@
       @include prices;
       top: 43.3rem;
     }
+    /*prix des plats de "la note enchantée"*/
+    & > .price--1-1 {
+      @include prices;
+      top: 37rem;
+    }
+    & > .price--2-1 {
+      @include prices;
+      top: 42.3rem;
+    }
+    & > .price--3-1 {
+      @include prices;
+      top: 47.7rem;
+    }
     &__plat:hover + .prices {
       transform: translateX(-55px);
     }
