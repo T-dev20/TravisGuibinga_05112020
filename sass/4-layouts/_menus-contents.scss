@@ -182,13 +182,11 @@
     & .em1--4 {
       top: 3.5rem;
     }
-    /*texte 'accommpagné de sa ribambelle...' : laPaletteDugout*/
+    /*texte 'accommpagné de sa ribambelle...' : 1er plat/laPaletteDugout*/
     & .txtLaPallDish1 {
       width: 75%;
-    }
-    //pour le prix du 1er plat du menu 'laPaletteDugout'
-    & .em1--1 {
-      top: 3.55rem;
+      top: 12px;
+      //background-color: darkgoldenrod;
     }
     & .dishes--plat1 {
       height: 66.15px;
