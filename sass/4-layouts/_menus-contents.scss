@@ -187,6 +187,19 @@
       @include prices;
       top: 47.7rem;
     }
+    /*prix des plats de "À la française"*/
+    & > .price--1-2 {
+      @include prices;
+      top: 31.6rem;
+    }
+    & > .price--2-2 {
+      @include prices;
+      top: 37rem;
+    }
+    & > .price--3-2 {
+      @include prices;
+      top: 42.4rem;
+    }
     &__plat:hover + .prices {
       transform: translateX(-55px);
     }
@@ -248,6 +261,19 @@
     & > .price--3-1 {
       @include prices;
       top: 68rem;
+    }
+    /*prix des desserts de "À la française"*/
+    & > .price--1-2 {
+      @include prices;
+      top: 51.8rem;
+    }
+    & > .price--2-2 {
+      @include prices;
+      top: 57.2rem;
+    }
+    & > .price--3-2 {
+      @include prices;
+      top: 62.5rem;
     }
     &__check:hover + .prices {
       transform: translateX(-55px);
