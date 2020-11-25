@@ -128,7 +128,11 @@
     }
     & > .price--3 {
       @include prices;
-      top: 21.9rem;
+      top: 22rem;
+    }
+    & > .price--4 {
+      @include prices;
+      top: 27.3rem;
     }
     &__entrée:hover + .prices {
       transform: translateX(-55px);
