@@ -173,7 +173,6 @@
     &__plat:hover + .prices {
       transform: translateX(-55px);
     }
-
     & .dishes__plat1 {
       /*conteneur du 1er plat des menus 'la Palette du gout' et 'le délices des sens'*/
       height: inherit;
@@ -208,12 +207,26 @@
       z-index: 1;
       @include menuChoice;
       & > p {
-        background-color: rgb(11, 80, 184);
         @include H-txt-plats;
       }
     }
+    & > .price--1 {
+      @include prices;
+      top: 52.8rem;
+    }
+    & > .price--2 {
+      @include prices;
+      top: 58.1rem;
+    }
+    & > .price--3 {
+      @include prices;
+      top: 63.5rem;
+    }
+    &__desserts:hover + .prices {
+      transform: translateX(-55px);
+    }
     & > p {
-      @include border-bottom;
+      @include border-bottom; /*pour les titres 'entrées', 'plats', 'desserts'*/
     }
   }
 }
