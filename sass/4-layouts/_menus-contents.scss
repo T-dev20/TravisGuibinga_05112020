@@ -235,6 +235,19 @@
       @include prices;
       top: 63.5rem;
     }
+    /*prix des desserts de "la note enchantée"*/
+    & > .price--1-1 {
+      @include prices;
+      top: 57.2rem;
+    }
+    & > .price--2-1 {
+      @include prices;
+      top: 62.7rem;
+    }
+    & > .price--3-1 {
+      @include prices;
+      top: 68rem;
+    }
     &__check:hover + .prices {
       transform: translateX(-55px);
     }
