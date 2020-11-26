@@ -39,6 +39,9 @@
 /*pour les divs de plats qui sont plus hauts*/
 .check--2 {
   top: 2rem;
+  @media screen and (min-width: 768px) {
+    top: 1.6rem;
+  }
 }
 
 .txtForCheck:hover + .check {
