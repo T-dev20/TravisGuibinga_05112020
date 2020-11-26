@@ -251,6 +251,9 @@
     & .txtLaPallDish1 {
       width: 74%;
       top: 12px;
+      @media screen and (min-width: 420px) and (max-width: 600px) {
+        width: 72%;
+      }
       //background-color: darkgoldenrod;
     }
     /*texte 'Et sa crème de truffe' : 1er plat/leDéliceDuSens*/
