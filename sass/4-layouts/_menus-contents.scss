@@ -170,14 +170,23 @@
     & > .price--1 {
       @include prices;
       top: 32.6rem;
+      @media screen and (min-width: 768px) {
+        top: 31.7rem;
+      }
     }
     & > .price--2 {
       @include prices;
       top: 37.9rem;
+      @media screen and (min-width: 768px) {
+        top: 37rem;
+      }
     }
     & > .price--3 {
       @include prices;
       top: 43.3rem;
+      @media screen and (min-width: 768px) {
+        top: 42.4rem;
+      }
     }
     /*prix des plats de "la note enchantée"*/
     & > .price--1-1 {
@@ -212,6 +221,9 @@
       /*conteneur du 1er plat des menus 'la Palette du gout' et 'le délices des sens'*/
       height: inherit;
       height: 80px;
+      @media screen and (min-width: 768px) {
+        height: 66.15px;
+      }
       & h2 {
         width: 60%;
         margin-bottom: 0.9rem;
@@ -249,14 +261,23 @@
     & > .price--1 {
       @include prices;
       top: 52.8rem;
+      @media screen and (min-width: 768px) {
+        top: 51.9rem;
+      }
     }
     & > .price--2 {
       @include prices;
       top: 58.1rem;
+      @media screen and (min-width: 768px) {
+        top: 57.3rem;
+      }
     }
     & > .price--3 {
       @include prices;
       top: 63.5rem;
+      @media screen and (min-width: 768px) {
+        top: 62.7rem;
+      }
     }
     /*prix des desserts de "la note enchantée"*/
     & > .price--1-1 {
