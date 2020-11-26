@@ -25,6 +25,9 @@
   background-color: white;
   transform: translateX(0px);
   //transform: rotate(0deg);
+  @media screen and (max-width: 365px) {
+    left: 18rem;
+  }
   @media screen and (min-width: 390px) and (max-width: 599px) {
     left: 21.2rem;
   }
