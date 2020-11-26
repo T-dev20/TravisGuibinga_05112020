@@ -106,6 +106,11 @@
     margin-top: 30px;
     margin-left: 5px;
     margin-right: 0px;
+    //background-color: darkgreen;
+    @media screen and (min-width: 315px) and (max-width: 350px) {
+      font-size: 1.5rem;
+      margin-top: 32px;
+    }
   }
   & > .menu__titreIco {
     display: flex;
@@ -115,6 +120,10 @@
       font-size: 1.4rem;
       margin-top: 37.5px;
       margin-right: 25px;
+      @media screen and (min-width: 315px) and (max-width: 350px) {
+        font-size: 1.3rem;
+        margin-top: 40px;
+      }
     }
   }
   & .icon-menus svg * {
