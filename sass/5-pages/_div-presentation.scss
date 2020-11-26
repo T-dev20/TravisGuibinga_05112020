@@ -46,8 +46,8 @@
     width: 70%;
   }
   @media screen and (min-width: 699px) and (max-width: 1023px) {
-    width: 50%;
-    font-size: inherit;
+    width: 60%;
+    font-size: 2.8rem;
   }
   & ~ p {
     display: block;
@@ -64,10 +64,11 @@
       font-size: 1rem;
       margin-top: 0.1rem;
       width: 90%;
+      margin-bottom: 2rem;
     }
     @media screen and (min-width: 699px) and (max-width: 1023px) {
-      width: 60%;
-      font-size: 1.5rem;
+      width: 85%;
+      font-size: 2rem;
     }
   }
 }
