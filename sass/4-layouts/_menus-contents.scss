@@ -20,11 +20,19 @@
   width: 15px;
   border-radius: 50%;
   padding: 2.5px;
-  opacity: 0;
+  opacity: 1;
   color: $color-tertiary;
   background-color: white;
   transform: translateX(0px);
   //transform: rotate(0deg);
+  @media screen and (min-width: 390px) and (max-width: 599px) {
+    left: 21.2rem;
+  }
+  /* @media screen and (min-width: 610px) and (max-width: 1023px) {
+    width: 17%;
+    top: 1404.6px;
+    right: 2.8rem;
+  }*/
 }
 
 /*pour les divs de plats qui sont plus hauts*/
