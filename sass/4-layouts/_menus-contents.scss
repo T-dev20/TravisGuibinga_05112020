@@ -238,6 +238,9 @@
     /*texte 'Et sa crème de truffe' : 1er plat/leDéliceDuSens*/
     & .txtLaPallDish2 {
       top: 32px;
+      @media screen and (min-width: 768px) {
+        top: 16px;
+      }
     }
     /*conteneur du 1er plat de "À la française"*/
     & .dishes--plat1 {
