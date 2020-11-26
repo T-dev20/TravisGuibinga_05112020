@@ -28,11 +28,12 @@
   @media screen and (min-width: 390px) and (max-width: 599px) {
     left: 21.2rem;
   }
-  /* @media screen and (min-width: 610px) and (max-width: 1023px) {
-    width: 17%;
-    top: 1404.6px;
-    right: 2.8rem;
-  }*/
+  @media screen and (min-width: 610px) and (max-width: 1023px) {
+    left: 43.2rem;
+  }
+  @media screen and (min-width: 1024px) {
+    left: 75rem;
+  }
 }
 
 /*pour les divs de plats qui sont plus hauts*/
