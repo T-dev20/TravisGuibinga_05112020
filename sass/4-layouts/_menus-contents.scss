@@ -272,6 +272,16 @@
         top: 16px;
       }
     }
+    & .txt--ellipsis {
+      transition: width, text-overflow 1s ease-in-out;
+      //background-color: darkgoldenrod;
+      &:hover {
+        width: 65%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
     /*conteneur du 1er plat de "À la française"*/
     & .dishes--plat1 {
       height: 66.15px;
