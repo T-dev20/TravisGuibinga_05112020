@@ -21,6 +21,9 @@
   &__entrée4 {
     animation: apparitionMenus 2s ease-in-out 0.4s;
   }
+  & > span {
+    animation: apparitionMenus 2s ease-in-out 0.1s;
+  }
 }
 
 .dishes {
@@ -33,6 +36,9 @@
   &__plat3 {
     animation: apparitionMenus 2s ease-in-out 0.7s;
   }
+  & > span {
+    animation: apparitionMenus 2s ease-in-out 0.5s;
+  }
 }
 
 .desserts {
@@ -44,5 +50,8 @@
   }
   &__3 {
     animation: apparitionMenus 2s ease-in-out 1s;
+  }
+  & > span {
+    animation: apparitionMenus 2s ease-in-out 0.8s;
   }
 }
