@@ -87,10 +87,10 @@
     transition: all 450ms ease-in-out both;
     //background-color: darkgoldenrod;
     &:hover {
-      width: 65%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      width: 68%;
       @media screen and (min-width: 768px) {
         width: 95%;
       }
