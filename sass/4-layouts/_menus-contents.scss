@@ -182,6 +182,9 @@
       @media screen and (min-width: 410px) and (max-width: 600px) {
         transform: translateX(-65px);
       }
+      @media screen and (min-width: 1024px) {
+        transform: translateX(-70px);
+      }
     }
     &--palette > h2 {
       //background-color: red;
@@ -255,6 +258,9 @@
       transform: translateX(-55px);
       @media screen and (min-width: 410px) and (max-width: 600px) {
         transform: translateX(-65px);
+      }
+      @media screen and (min-width: 1024px) {
+        transform: translateX(-70px);
       }
     }
     & .dishes__plat1 {
@@ -358,6 +364,9 @@
       transform: translateX(-55px);
       @media screen and (min-width: 410px) and (max-width: 600px) {
         transform: translateX(-65px);
+      }
+      @media screen and (min-width: 1024px) {
+        transform: translateX(-70px);
       }
     }
     & > p {
