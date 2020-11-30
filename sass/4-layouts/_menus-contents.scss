@@ -157,6 +157,9 @@
       & > p {
         //background-color: darkgoldenrod;
         @include H-txt-plats;
+        @media screen and (min-width: 315px) and (max-width: 350px) {
+          font-size: 0.8rem;
+        }
       }
     }
     /* code pour l'animation sur les prix*/
@@ -208,6 +211,9 @@
       @include menuChoice;
       & > p {
         @include H-txt-plats;
+        @media screen and (min-width: 315px) and (max-width: 350px) {
+          font-size: 0.85rem;
+        }
       }
     }
     & > .price--1 {
@@ -317,6 +323,9 @@
       @include menuChoice;
       & > p {
         @include H-txt-plats;
+        @media screen and (min-width: 315px) and (max-width: 350px) {
+          font-size: 0.85rem;
+        }
       }
     }
     & > .price--1 {
