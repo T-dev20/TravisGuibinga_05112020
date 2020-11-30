@@ -285,12 +285,18 @@
       & h2 {
         width: 60%;
         margin-bottom: 0.9rem;
+        @media screen and (min-width: 315px) and (max-width: 350px) {
+          width: 80%;
+        }
       }
     }
     /*texte 'accommpagné de sa ribambelle...' : 1er plat/laPaletteDugout*/
     & .txtLaPallDish1 {
       width: 74%;
       top: 12px;
+      @media screen and (min-width: 315px) and (max-width: 350px) {
+        width: 64%;
+      }
       @media screen and (min-width: 420px) and (max-width: 600px) {
         width: 72%;
       }
