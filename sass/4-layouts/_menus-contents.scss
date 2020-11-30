@@ -179,6 +179,9 @@
     }
     &__entrée:hover + .prices {
       transform: translateX(-55px);
+      @media screen and (min-width: 315px) and (max-width: 350px) {
+        transform: translateX(-45px);
+      }
       @media screen and (min-width: 410px) and (max-width: 600px) {
         transform: translateX(-65px);
       }
@@ -256,6 +259,9 @@
     }
     &__plat:hover + .prices {
       transform: translateX(-55px);
+      @media screen and (min-width: 315px) and (max-width: 350px) {
+        transform: translateX(-45px);
+      }
       @media screen and (min-width: 410px) and (max-width: 600px) {
         transform: translateX(-65px);
       }
@@ -362,6 +368,9 @@
     }
     &__check:hover + .prices {
       transform: translateX(-55px);
+      @media screen and (min-width: 315px) and (max-width: 350px) {
+        transform: translateX(-45px);
+      }
       @media screen and (min-width: 410px) and (max-width: 600px) {
         transform: translateX(-65px);
       }
