@@ -9,7 +9,7 @@
     height: 100%;
     transform: scaleX(0);
     transform-origin: right;
-    transition: transform 200ms ease-in-out;
+    transition: transform 350ms ease-in-out;
     border-radius: 0 1rem 1rem 0;
     background-color: $color-tertiary;
     @media screen and (min-width: 768px) and (max-width: 1023px) {
