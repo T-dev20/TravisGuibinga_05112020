@@ -91,6 +91,9 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      @media screen and (min-width: 768px) {
+        width: 95%;
+      }
     }
   }
   background-color: $color-containers;
