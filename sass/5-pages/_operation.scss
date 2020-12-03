@@ -47,9 +47,24 @@
       font-size: 3.5rem;
       top: 75px;
       opacity: 0.4;
-      @media screen and (max-width: 599px) {
+      @media screen and (min-width: 315px) and (max-width: 350px) {
         font-size: 1.1rem;
-        left: -95px;
+        left: -100px;
+        top: 20px;
+      }
+      @media screen and (min-width: 360px) and (max-width: 376px) {
+        font-size: 1.1rem;
+        left: -113px;
+        top: 20px;
+      }
+      @media screen and (min-width: 390px) and (max-width: 415px) {
+        font-size: 1.1rem;
+        left: -138px;
+        top: 20px;
+      }
+      @media screen and (min-width: 420px) and (max-width: 600px) {
+        font-size: 1.1rem;
+        left: -138px;
         top: 20px;
       }
       @media screen and (min-width: 768px) and (max-width: 1023px) {
