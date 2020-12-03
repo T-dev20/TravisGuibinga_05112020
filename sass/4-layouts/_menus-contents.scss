@@ -84,7 +84,7 @@
     padding-right: 55px;
   }
   & .txt--ellipsis {
-    transition: all 450ms ease-in-out both;
+    transition: all 450ms ease-in-out;
     //background-color: darkgoldenrod;
     &:hover {
       white-space: nowrap;
