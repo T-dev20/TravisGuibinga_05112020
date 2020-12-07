@@ -12,10 +12,19 @@
     transition: transform 350ms ease-in-out;
     border-radius: 0 1rem 1rem 0;
     background-color: $color-tertiary;
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /*transition liée aux Ipad*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
       width: 10%;
     }
-    @media screen and (min-width: 1024px) {
+    /*transition liée aux Ipad pro*/
+    @media screen and (min-width: 800px) and (max-width: 1023px) {
+      width: 9%;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1030px) {
+      width: 8%;
+    }
+    @media screen and (min-width: 1035px) {
       width: 6%;
     }
   }
