@@ -87,6 +87,10 @@
       top: 911px;
       right: 3rem;
     }
+    @media screen and (min-width: 540px) and (max-width: 599px) {
+      top: 895px;
+      right: 3.2rem;
+    }
     @media screen and (min-width: 610px) and (max-width: 1023px) {
       width: 13%;
       top: 1072px;
@@ -114,6 +118,10 @@
       padding: 6px 5px;
       top: 1161px;
       right: 3rem;
+    }
+    @media screen and (min-width: 540px) and (max-width: 599px) {
+      top: 1145px;
+      right: 3.2rem;
     }
     @media screen and (min-width: 610px) and (max-width: 1023px) {
       width: 13%;
