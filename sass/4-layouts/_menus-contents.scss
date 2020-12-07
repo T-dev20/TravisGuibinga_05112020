@@ -37,10 +37,16 @@
   @media screen and (min-width: 420px) and (max-width: 600px) {
     left: 21.7rem;
   }
-  @media screen and (min-width: 610px) and (max-width: 1023px) {
+  @media screen and (min-width: 602px) and (max-width: 768px) {
     left: 43.2rem;
   }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    left: 47.3rem;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1030px) {
+    left: 54.1rem;
+  }
+  @media screen and (min-width: 1035px) {
     left: 76.3rem;
   }
 }
