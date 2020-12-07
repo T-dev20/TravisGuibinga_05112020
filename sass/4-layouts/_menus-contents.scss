@@ -89,9 +89,17 @@
 }
 
 .menu {
-  @media screen and (min-width: 1024px) {
-    padding-left: 55px;
-    padding-right: 55px;
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1028px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @media screen and (min-width: 1030px) {
+    padding-left: 30px;
+    padding-right: 30px;
   }
   & .txt--ellipsis {
     transition: text-overflow 450ms ease-in-out;
