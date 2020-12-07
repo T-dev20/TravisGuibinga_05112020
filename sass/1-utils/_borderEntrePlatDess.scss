@@ -6,13 +6,19 @@
   @media screen and (min-width: 315px) and (max-width: 350px) {
     width: 14%;
   }
-  @media screen and (min-width: 420px) and (max-width: 600px) {
+  @media screen and (min-width: 420px) and (max-width: 599px) {
     width: 10.3%;
   }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    width: 6%;
+  @media screen and (min-width: 600px) and (max-width: 768px) {
+    width: 5.6%;
   }
-  @media screen and (min-width: 1024px) {
-    width: 3%;
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    width: 5.3%;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1030px) {
+    width: 4.6%;
+  }
+  @media screen and (min-width: 1035px) {
+    width: 3.3%;
   }
 }
