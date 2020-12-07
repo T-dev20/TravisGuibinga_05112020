@@ -34,8 +34,12 @@
   @media screen and (min-width: 390px) and (max-width: 415px) {
     left: 21.2rem;
   }
-  @media screen and (min-width: 420px) and (max-width: 600px) {
+  @media screen and (min-width: 420px) and (max-width: 500px) {
     left: 21.7rem;
+  }
+  /*écran surface duo*/
+  @media screen and (min-width: 510px) and (max-width: 600px) {
+    left: 29.1rem;
   }
   @media screen and (min-width: 602px) and (max-width: 768px) {
     left: 43.2rem;
