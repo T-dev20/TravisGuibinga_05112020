@@ -21,9 +21,11 @@
     @media screen and (min-width: 800px) and (max-width: 1023px) {
       width: 9%;
     }
+    /*transition liée aux Ipad pro*/
     @media screen and (min-width: 1024px) and (max-width: 1030px) {
       width: 8%;
     }
+    /*transition liée aux desktop*/
     @media screen and (min-width: 1035px) {
       width: 6%;
     }
