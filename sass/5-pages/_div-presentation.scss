@@ -49,16 +49,21 @@
     width: 60%;
     font-size: 2.8rem;
   }
+  @media screen and (min-width: 1024px) and (max-width: 1030px) {
+    font-size: 3.5rem;
+    width: 70%;
+  }
   & ~ p {
     display: block;
     text-align: center;
     width: 90%;
+    font-size: 4rem;
+    opacity: 0.65;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0rem;
     margin-bottom: 3.5rem;
-    font-size: 4rem;
-    opacity: 0.65;
+
     //background-color: yellow;
     @media screen and (max-width: 599px) {
       font-size: 1rem;
@@ -69,6 +74,10 @@
     @media screen and (min-width: 699px) and (max-width: 1023px) {
       width: 85%;
       font-size: 2rem;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1030px) {
+      width: 90%;
+      font-size: 3rem;
     }
   }
 }

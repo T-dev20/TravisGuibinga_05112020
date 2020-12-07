@@ -37,11 +37,14 @@
   border-top-color: $color-tertiary;
   margin-bottom: 2rem;
   animation: spin 1s infinite ease-in-out;
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    top: -10rem;
+  @media screen and (min-width: 602px) and (max-width: 768px) {
+    top: -12rem;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    top: -13.5rem;
   }
   @media screen and (min-width: 1024px) and (max-width: 1030px) {
-    left: -12rem;
+    top: -18rem;
   }
 }
 
@@ -58,11 +61,14 @@
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    top: -10rem;
+  @media screen and (min-width: 602px) and (max-width: 768px) {
+    top: -12rem;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    top: -13.5rem;
   }
   @media screen and (min-width: 1024px) and (max-width: 1030px) {
-    left: -12rem;
+    top: -18rem;
   }
 }
 
